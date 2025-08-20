@@ -24,7 +24,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} ${montserrat.variable} bg-[#f5f5dc6d]`}>
+      <body className={`${inter.variable} ${montserrat.variable} bg-gradient-to-br from-zinc-900 via-black to-zinc-950 text-white`}>
         {children}
       </body>
     </html>

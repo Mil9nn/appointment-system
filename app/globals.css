@@ -20,7 +20,7 @@ h3 {
 }
 
 p {
- @apply font-inter text-base leading-relaxed;
+ @apply font-inter leading-relaxed;
 }
 li {
   @apply font-inter text-base leading-relaxed list-disc list-inside;
@@ -32,4 +32,8 @@ li {
 
 .call-to-btn {
   @apply px-4 py-3 bg-[#5603AD] text-white rounded-full shadow-md text-lg font-semibold;
+}
+
+.form-chat-container {
+  @apply flex items-center p-5;
 }
